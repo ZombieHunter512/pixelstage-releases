@@ -1,0 +1,4 @@
+{
+  "repo": "ZombieHunter512/pixelstage-releases",
+  "note": "Every installed copy reads this file before checking for updates, then looks for releases in whatever repo 'repo' names. It points at the public releases repo because the updater is two anonymous HTTPS gets with no credentials, so every repo it touches must be public — and a GitHub release inherits its repo's visibility, so private source means the binaries live elsewhere. This copy is the master: CI pushes it to the releases repo on every release, and builds from 0.40.0 on read it from there. The copy in the source repo is the rescue lane for older builds, which still look here first; it only works while this repo is public. Optional fields the apps understand: 'notice' (a one-line message shown to users once per version)."
+}
