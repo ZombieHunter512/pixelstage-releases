@@ -59,15 +59,36 @@ Newest build: **[Releases](https://github.com/ZombieHunter512/pixelstage-release
 
 | Your machine | File |
 |---|---|
-| Windows | `Pixel-Stage-x.x.x.exe` — no install, just double-click |
+| **Windows** | `Pixel-Stage-x.x.x-Setup.exe` — the installer: Start menu, desktop shortcut, uninstaller. **Take this one.** |
+| Windows, no install | `Pixel-Stage-x.x.x.exe` — **portable**: the whole app in one file, nothing installed |
 | Mac (M1–M4) | `Pixel-Stage-x.x.x-mac-arm64.dmg` |
 | Mac (older Intel) | `Pixel-Stage-x.x.x-mac-x64.dmg` |
-| Linux | `Pixel-Stage-x.x.x-linux.AppImage` |
-| Anywhere, no install | `Pixel-Stage-x.x.x-portable.html` — the whole app as one document |
-| Raspberry Pi and friends | `Pixel-Stage-x.x.x-lite-portable.html` — same app on the CSS renderer |
+| Linux | `Pixel-Stage-x.x.x-linux.AppImage` — **x64 only**, there is no ARM build |
+| Anywhere | `Pixel-Stage-x.x.x-lite.html` — **lite**: runs in any browser, no Art-Net or Resolume |
+
+Those are all of them. On a Raspberry Pi or any other ARM board the answer is the lite
+document, opened in Chromium.
 
 Stuck? **[HELPME.md](HELPME.md)** walks through every install and first-run problem in plain
 language.
+
+### Windows: Setup or portable?
+
+Two files, the same program, different amounts of ceremony.
+
+**`Pixel-Stage-x.x.x-Setup.exe`** is a normal installer. It installs per-user into
+`%LOCALAPPDATA%\Programs\Pixel Stage`, which needs no administrator password, and gives you a
+Start menu entry, a desktop shortcut, and a row in *Add or remove programs* that uninstalls it
+cleanly. Take this one unless you have a reason not to.
+
+**`Pixel-Stage-x.x.x.exe`** is the portable build: one file, parked wherever you put it,
+touching nothing else on the machine. It is the one for a locked-down show laptop, a USB
+stick, or a machine you are not allowed to install software on. **It is not a cut-down
+version** — Art-Net, sACN, Resolume and auto-update all work.
+
+Both update themselves, and each knows which one it is. Nobody is converted from one to the
+other behind their back. **Do not run Setup into the folder where you keep the portable exe**
+— you would end up with two copies arguing over the same machine.
 
 ### First run
 
@@ -94,10 +115,16 @@ the build should have shipped with. Then open it normally.
 
 ---
 
-## The single file
+## The single file — the *lite* build
 
-Every release also carries the whole app as one document — `Pixel-Stage-x.x.x-portable.html`.
-No install, no Electron, nothing to unpack. Double-click it, or email it to somebody.
+Every release also carries the app as one document — `Pixel-Stage-x.x.x-lite.html`. No
+install, no Electron, nothing to unpack. Double-click it, or email it to somebody.
+
+**Portable and lite are two different things.** The portable `.exe` is the whole program and
+simply installs nothing. The lite `.html` is a browser document, and a browser cannot open a
+UDP socket or write into Resolume's folder, so those are the parts it does without. There used
+to be two of these documents, a full one and a "Lite" one; both reasons went away, because the
+renderer falls back to CSS on its own if WebGL 2 will not start.
 
 ### What the installed app gives you that the single file cannot
 

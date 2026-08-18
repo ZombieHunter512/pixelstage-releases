@@ -11,19 +11,27 @@ almost everything.
 
 | Your machine | Download this |
 |---|---|
-| Windows PC | `Pixel-Stage-x.x.x.exe` |
+| Windows PC | `Pixel-Stage-x.x.x-Setup.exe` |
+| Windows, on a machine you cannot install on | `Pixel-Stage-x.x.x.exe` |
 | Mac bought 2021 or later (M1/M2/M3/M4) | `Pixel-Stage-x.x.x-mac-arm64.dmg` |
 | Older Intel Mac | `Pixel-Stage-x.x.x-mac-x64.dmg` |
 | Linux | `Pixel-Stage-x.x.x-linux.AppImage` |
-| Anything at all, no install, borrowed machine | `Pixel-Stage-x.x.x-portable.html` |
-| Raspberry Pi or an old/slow machine | `Pixel-Stage-x.x.x-lite-portable.html` |
+| Anything at all, no install, borrowed machine | `Pixel-Stage-x.x.x-lite.html` |
+| Raspberry Pi | `Pixel-Stage-x.x.x-lite.html` |
+
+**Windows — which of the two?** `Setup.exe` is the normal installer: it puts Pixel Stage in
+your Start menu, adds a desktop shortcut, and can be uninstalled from *Add or remove
+programs*. It does not ask for an administrator password. **Take that one.** The plain
+`.exe` is the portable build, for a show laptop or a rental you are not allowed to install
+software on — it is the same full program, it just installs nothing.
 
 **Not sure which Mac you have?** Apple menu → About This Mac. If the Chip line says "Apple
 M-something", take `mac-arm64`. If it says Intel, take `mac-x64`.
 
-**Just want to look at it right now?** Take the `portable.html` file. It is the entire program
-in one document — double-click it and it opens in your browser. Nothing to install, nothing
-to uninstall.
+**Just want to look at it right now?** Take the `lite.html` file. It is the whole program in
+one document — double-click it and it opens in your browser. Nothing to install, nothing to
+uninstall. The only things it cannot do are the ones a browser is not allowed to do: listen
+to Art-Net or sACN, and write straight into Resolume's folder.
 
 ---
 
@@ -93,8 +101,9 @@ Press **G**, or go to **Settings → GPU view**, to switch between the two ways 
 - If shapes look wrong or the view is blank, switch it off; some machines and remote-desktop
   sessions cannot do the fast path.
 
-The choice is remembered. On a Raspberry Pi or a very old machine, use the
-`lite-portable.html` download instead.
+The choice is remembered, and the app falls back to the slower path by itself if the fast one
+will not start. On a Raspberry Pi there is no installable build at all — use the `lite.html`
+document in Chromium.
 
 ---
 
