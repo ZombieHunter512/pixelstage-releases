@@ -146,8 +146,8 @@ that folder when it starts. It appears in **Load…** straight away.
 
 ## Something else is wrong
 
-Open an issue on the **[source repository](https://github.com/ZombieHunter512/pixelstage)**,
-and include:
+Open an issue on the **[downloads repository](https://github.com/ZombieHunter512/pixelstage-releases/issues)**
+— the same place you got the file — and include:
 
 - Which file you downloaded and which version
 - What machine and operating system
