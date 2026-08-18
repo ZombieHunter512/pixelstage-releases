@@ -16,20 +16,6 @@ One HTML file, or an app for Windows, macOS and Linux. MIT licensed.
 
 ---
 
-## What it looks like
-
-![A festival main stage: mapped LED walls, truss towers and beams over the field](media/festival.png)
-
-| | |
-|---|---|
-| ![A club show — LED walls, movers and beams](media/concert.png) *A club rig, lit and running* | ![A warehouse hall with ceiling LED blades](media/concourse.png) *A 45 m warehouse hall — ceiling blades, truss runs, beams in the joists* |
-| ![A stadium bowl of LED ribbons](media/stadium.png) *A stadium bowl — 104 walls, 1,318 panels, one file* | ![The front-of-house desk over a lit stage](media/desk.png) *The FOH desk: beams, looks, strobes and movers, live* |
-| ![The Slice tab packing every wall onto the signal](media/slice.png) *Every wall placed on the video signal — this is what Resolume receives* | ![A game map blocked out as a venue](media/dust2.png) *Block out any space — even a game map — and hang LED in it* |
-
-Every frame above is the app itself, drawing a real saved show.
-
----
-
 ## What it is
 
 A rehearsal room for people who work with LED and light: VJs, screens techs, lighting
