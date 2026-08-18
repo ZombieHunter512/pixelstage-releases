@@ -190,6 +190,33 @@ This matters if you are handing the app to somebody, or trying it on a show mach
 
 ---
 
+## The two-copy rule
+
+> **Every release exists in BOTH repos. No exceptions, in either direction.**
+>
+> Anything published here has its master in the private source repo, and any version cut
+> there must be mirrored here. A release that exists in only one of them is a fault to be
+> fixed, not a state to leave.
+
+The two copies do different jobs, which is why neither is optional:
+
+| | Source repo (private) | **This repo** (public) |
+|---|---|---|
+| Role | **Master** — the tag sits on the commit it was built from | **Mirror** — the copy users download |
+| Read by the updater | **Never** — the app carries no credentials | **Always** |
+| If it is missing | No archive and nothing to re-mirror from | **Nobody can update. This is an outage.** |
+
+CI does both on every release, master first, and fails the run if either copy comes up short
+of its files. The trap worth naming: the master succeeding makes the run *look* fine, while a
+missing mirror throws no error anywhere — it just means every copy in the world quietly stops
+finding updates.
+
+Releases from before the split (**v0.2.0 – v0.38.1**) were published in the source repo and
+have been copied here, so this repo holds the full history rather than only what came after.
+Their tags do not correspond to commits in this repo; the attached files are the originals.
+
+If you are publishing by hand for any reason, you are not finished until both repos have it.
+
 ## Why downloads have a repo of their own
 
 The app updates itself, and the updater is a plain anonymous HTTPS request with no login
