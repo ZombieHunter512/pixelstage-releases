@@ -9,7 +9,7 @@ Resolume, and run the show. Nothing here is a mock-up: a 12″ box truss is 305 
 panel at P3.9 is 500 mm across, and the pixel map you export is the one you would hand a
 screens tech.
 
-One HTML file, or an app for Windows, macOS and Linux. MIT licensed.
+One HTML file, or an app for Windows, macOS and Linux. All rights reserved.
 
 > **This repo holds the built app and nothing else. No source lives here.**
 > See [Why downloads have a repo of their own](#why-downloads-have-a-repo-of-their-own).
@@ -265,5 +265,16 @@ changing anything about this repo's visibility.
 
 ## Licence
 
-MIT. Do what you like with it; there is no warranty, and the **What it is not** section above
-is not a formality.
+**All rights reserved** — see [LICENSE](LICENSE). This is not open source.
+
+You may download a release and run it for your own personal, non-commercial use. Copying it,
+changing it, passing it on, or using it to make money all need written permission first. Ask —
+permission may well be given, and asking costs nothing.
+
+Releases up to and including **v0.57.0** were published under the MIT licence, and that grant
+stands for those builds: it cannot be withdrawn from anyone who already has them. Later
+releases are under the terms above.
+
+Released builds bundle Electron and other components under their own licences, which are
+unaffected by this. There is no warranty, and the **What it is not** section above is not a
+formality.
