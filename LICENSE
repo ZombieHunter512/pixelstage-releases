@@ -1,30 +1,112 @@
-Copyright (c) 2026 ZombieHunter512. All rights reserved.
+PROPRIETARY LICENSE
+Version 1.0 — 22 August 2026
 
-This software and its source code are proprietary. No licence is granted, by
-implication, estoppel or otherwise, to anyone.
+Copyright (c) 2026 Lost Pixel. All rights reserved.
 
-You may NOT copy, reproduce, modify, adapt, translate, merge, publish,
-distribute, sublicense, sell, rent, lease, host as a service, or create
-derivative works from this software or any part of it, and you may NOT use it
-for any commercial purpose or for any purpose that generates revenue, without
-the prior WRITTEN permission of the copyright holder.
+Lost Pixel is a registered assumed name in the State of Texas, USA, and
+publishes on GitHub as ZombieHunter512.
 
-Permission may be granted. Ask.
 
-Downloading a released build gives you permission to run that build for your own
-personal, non-commercial use, and nothing further. That permission ends if you
-break these terms.
+1. WHAT THIS COVERS
 
-Nothing here restricts any right you have that cannot be restricted by
-agreement, including fair dealing and fair use where they apply to you.
+   "the Work" means everything in this repository and every copy of it, in any
+   form: source code, compiled and packaged builds, documentation, text,
+   images, photographs, video, audio, 3D models, designs, layouts, and data
+   files.
 
-THIRD-PARTY COMPONENTS. Released builds bundle Electron and other components
-that carry their own licences, which are unaffected by this notice and which
-continue to govern those components.
 
-NO WARRANTY. This software is provided "as is", without warranty of any kind,
-express or implied, including but not limited to the warranties of
-merchantability, fitness for a particular purpose and noninfringement. In no
-event shall the copyright holder be liable for any claim, damages or other
-liability, whether in an action of contract, tort or otherwise, arising from,
-out of or in connection with this software or the use or other dealings in it.
+2. NO LICENSE IS GRANTED
+
+   No license or other right in the Work is granted to anyone, by implication,
+   estoppel, or otherwise. All rights are reserved.
+
+   Without limiting that, you may NOT copy, reproduce, modify, adapt,
+   translate, merge, publish, distribute, sublicense, sell, rent, lease, host
+   as a service, or create derivative works from the Work or any part of it;
+   you may NOT use it to train, fine-tune, or evaluate any machine learning
+   model; and you may NOT use it for any commercial purpose or for any purpose
+   that generates revenue - in each case without the prior WRITTEN permission
+   of the copyright holder.
+
+   Permission may be granted. Ask: LostPixel.LLC@gmail.com
+
+   PERMISSION TO RUN OFFICIAL BUILDS. Downloading an official released build
+   gives you permission to install and run that build for your own use,
+   including use in the course of your paid work. That permission does not let
+   you redistribute the build, resell it, host it as a service, bundle it into
+   another product, or modify it. It ends immediately if you breach this
+   license.
+
+3. NAMES, MARKS, AND LOGOS
+
+   No right is granted to any trademark, service mark, trade name, logo,
+   product name, or mascot or character design of the copyright holder,
+   including "Lost Pixel", "Pixel Stage". Permission to use the Work, if it is granted, is not
+   permission to use these.
+
+
+4. NOTICES MUST SURVIVE
+
+   Any copy of the Work that you are permitted to make must keep this file,
+   and every copyright and ownership notice contained in the Work, intact and
+   unaltered. Removing or obscuring such a notice is a breach of this license
+   and may be unlawful in its own right.
+
+
+5. THIRD-PARTY COMPONENTS
+
+   The source code in this repository is original work. Official released
+   builds package it together with Electron, Chromium, Node.js, and other
+   components that carry their own licenses. Those licenses are unaffected by
+   this notice and continue to govern those components. This license applies
+   to the Pixel Stage source code and assets, and not to them.
+
+
+6. WHAT THIS DOES NOT RESTRICT
+
+   Nothing in this license restricts any right you hold that cannot be
+   restricted by agreement. That includes fair use and fair dealing where they
+   apply to you, and any right to decompile or reverse engineer that the law
+   grants you and does not permit you to waive.
+
+
+7. PUBLIC HOSTING ON GITHUB
+
+   This repository is public on GitHub. Other GitHub users therefore hold the
+   limited license that GitHub's Terms of Service grant them: to view this
+   repository and to reproduce it by forking, within the GitHub service. That
+   is the full extent of what is granted. Forking gives you no right to use,
+   modify, publish, distribute, or host the Work anywhere else, and no right
+   to anything withheld by section 2.
+
+
+8. TERMINATION
+
+   Any permission granted under this license, however it was granted, ends
+   immediately and without notice if you breach any term of it.
+
+
+9. NO WARRANTY
+
+   The Work is provided "as is", without warranty of any kind, express or
+   implied, including but not limited to the warranties of merchantability,
+   fitness for a particular purpose, and noninfringement. In no event shall
+   the copyright holder be liable for any claim, damages, or other liability,
+   whether in an action of contract, tort, or otherwise, arising from, out of,
+   or in connection with the Work or the use or other dealings in it.
+
+
+10. GOVERNING LAW
+
+   This license is governed by the laws of the State of Texas, USA, without
+   regard to its conflict-of-laws rules.
+
+
+11. SEVERABILITY
+
+   If any provision of this license is held unenforceable, that provision
+   shall be enforced to the greatest extent permitted, or severed if it cannot
+   be, and every remaining provision shall stay in full force.
+
+
+Licensing, permissions, and anything else: LostPixel.LLC@gmail.com
